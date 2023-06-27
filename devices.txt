@@ -1,0 +1,593 @@
+N3172-361-R2-1> sh lldp nei
+Capability codes:
+  (R) Router, (B) Bridge, (T) Telephone, (C) DOCSIS Cable Device
+  (W) WLAN Access Point, (P) Repeater, (S) Station, (O) Other
+Device ID            Local Intf      Hold-time  Capability  Port ID  
+MGMT-361-R2-1        mgmt0           120        B           gi42          
+0433.8952.cb3c       Eth1/1          120                   0433.8952.cb3c
+0433.8952.c959       Eth1/2          120                    0433.8952.c959
+70fd.457e.3f38       Eth1/3          121                    70fd.457e.3f38
+SW4500X-VSS.glavapu.local                     Eth1/47         120        BR          Te1/1/14      
+SW4500X-VSS.glavapu.local                     Eth1/48         120        BR          Te2/1/14      
+LE-361-1-LIG-CEE     Eth1/49         60                     ethernet0/0/1 
+LE-361-1-LIG-CEE     Eth1/50         60                     ethernet1/0/1 
+N3172-361-R2-2       Eth1/53         120        BR          Ethernet1/53  
+N3172-361-R2-2       Eth1/54         120        BR          Ethernet1/54  
+
+Total number of devices: 10
+
+SW4500X-VSS#sh lldp nei
+Capability codes:
+  (R) Router, (B) Bridge, (T) Telephone, (C) DOCSIS Cable Device
+  (W) WLAN Access Point, (P) Repeater, (S) Station, (O) Other
+Device ID            Local Intf      Hold-time  Capability  Port ID  
+N3172-474-R3-1      Te2/1/15       120        B,R             Ethernet1/48
+N3172-474-R3-1      Te1/1/15       120        B,R             Ethernet1/47
+N3172-361-R2-2      Te1/2/5        120        B,R             Ethernet1/47
+STACK-474-R3-1.STACK Te1/1/11       120        B,R             Te1/0/2
+STACK-474-R3-1.STACK Te2/1/11       120        B,R             Te2/0/2
+N3172-361-R2-2      Te2/2/5        120        B,R             Ethernet1/48
+STACK-474-R2-1.STACK Te1/1/8        120        B,R             Te3/0/2
+STACK-474-R2-1.STACK Te1/1/7        120        B,R             Te2/0/2
+STACK-474-R2-1.STACK Te1/1/6        120        B,R             Te1/0/2
+STACK-474-R2-1.STACK Te2/1/8        120        B,R             Te7/0/2
+STACK-474-R2-1.STACK Te2/1/7        120        B,R             Te6/0/2
+STACK-474-R2-1.STACK Te2/1/6        120        B,R             Te5/0/2
+STACK-474-R2-1.STACK Te2/1/5        120        B,R             Te4/0/2
+SW_3850-474         Te2/2/2        120        B               Te1/1/4
+STACK-474-R2-2.STACK Te2/1/10       120        B,R             Te4/0/2
+STACK-474-R2-2.STACK Te1/1/9        120        B,R             Te1/0/2
+STACK-474-R2-2.STACK Te2/1/9        120        B,R             Te3/0/2
+STACK-474-R2-2.STACK Te1/1/10       120        B,R             Te2/0/2
+N3172-361-R2-1      Te2/1/14       120        B,R             Ethernet1/48
+N3172-361-R2-1      Te1/1/14       120        B,R             Ethernet1/47
+N3172-474-R3-2      Te2/2/6        120        B,R             Ethernet1/48
+N3172-474-R3-2      Te1/2/6        120        B,R             Ethernet1/47
+STACK-361-R1-2.STACK Te2/1/3        120        B,R             Te5/0/2
+STACK-361-R1-2.STACK Te2/1/4        120        B,R             Te4/0/2
+STACK-361-R1-2.STACK Te1/1/3        120        B,R             Te1/0/2
+STACK-361-R1-2.STACK Te1/1/5        120        B,R             Te3/0/2
+STACK-361-R1-2.STACK Te1/1/4        120        B,R             Te2/0/2
+MGMT-361-R2-1       Te1/2/3        120        B               gi50
+MGMT-361-R2-1       Te2/2/3        120        B               gi49
+SW_3850-361         Te1/2/2        120        B               Te1/1/4
+STACK-361-R1-1.STACK Te1/1/1        120        B,R             Te1/0/2
+STACK-361-R1-1.STACK Te1/1/2        120        B,R             Te2/0/2
+STACK-361-R1-1.STACK Te2/1/1        120        B,R             Te3/0/2
+STACK-361-R1-1.STACK Te2/1/2        120        B,R             Te4/0/2
+C2960-549-R1-1 Te1/1/12       120        B,R             Te1/0/1
+
+Total number of devices: 35
+
+C2960-549-R1-1>sh lldp nei
+Capability codes:
+  (R) Router, (B) Bridge, (T) Telephone, (C) DOCSIS Cable Device
+  (W) WLAN Access Point, (P) Repeater, (S) Station, (O) Other
+Device ID            Local Intf      Hold-time  Capability  Port ID  
+SW4500X-VSS.glavapu. Te1/0/1        120        B,R             Te1/1/12
+9c7b.ef43.1207      Gi1/0/6        3601                      9c7b.ef43.1207
+9c7b.ef43.0d68      Gi1/0/6        3601                       9c7b.ef43.0d68
+6c0b.84a9.1429      Gi1/0/30       3601                       6c0b.84a9.1429
+1860.24f0.e9cb      Gi1/0/43       3601                       1860.24f0.e9cb
+c8d9.d28f.4ec1      Gi1/0/31       3601                       c8d9.d28f.4ec1
+9c7b.ef27.73ce      Gi1/0/40       3601                       9c7b.ef27.73ce
+18d6.c704.9d25      Gi1/0/3        3601                       18d6.c704.9d25
+f80d.ac29.c1be      Gi1/0/22       3601                       f80d.ac29.c1be
+c8d9.d227.b1f4      Gi1/0/32       3601                      c8d9.d227.b1f4
+b05c.da3e.5415      Gi1/0/1        3601                       b05c.da3e.5415
+b42e.9934.0b20      Gi1/0/48       3601                       b42e.9934.0b20
+10e7.c645.a9db      Gi1/0/6        3601                       10e7.c645.a9db
+18d6.c703.b865      Gi1/0/16       3601                      18d6.c703.b865
+b05c.da3e.5253      Gi1/0/17       3601                       b05c.da3e.5253
+f8b4.6ac2.7c8b      Gi1/0/5        3601                       f8b4.6ac2.7c8b
+10e7.c646.2f07      Gi1/0/7        3601                       10e7.c646.2f07
+1860.24f0.9ae8      Gi1/0/7        3601                       1860.24f0.9ae8
+18d6.c703.7e1d      Gi1/0/6        3601                       18d6.c703.7e1d
+b05c.da3e.52a6      Gi1/0/19       3601                       b05c.da3e.52a6
+9c7b.ef2c.40fd      Gi1/0/16       3601                       9c7b.ef2c.40fd
+c8d9.d28f.4d20      Gi1/0/25       3601                       c8d9.d28f.4d20
+9c7b.ef43.120d      Gi1/0/14       3601                       9c7b.ef43.120d
+c8d9.d22a.4293      Gi1/0/40       3601                       c8d9.d22a.4293
+c8d9.d28f.4d2f      Gi1/0/33       3601                       c8d9.d28f.4d2f
+10e7.c646.9542      Gi1/0/40       3601                       10e7.c646.9542
+f8b4.6ac2.7cc6      Gi1/0/39       3601                       f8b4.6ac2.7cc6
+10e7.c645.aaa5      Gi1/0/9        3601                       10e7.c645.aaa5
+c8d9.d286.24e6      Gi1/0/38       3601                       c8d9.d286.24e6
+9c7b.ef27.7871      Gi1/0/35       3601                       9c7b.ef27.7871
+3024.a996.fc75      Gi1/0/28       3601                       3024.a996.fc75
+c8d9.d286.2589      Gi1/0/37       3601                       c8d9.d286.2589
+c8d9.d286.239a      Gi1/0/10       3601                       c8d9.d286.239a
+c8d9.d286.2b31      Gi1/0/43       3601                       c8d9.d286.2b31
+485b.39d0.05a6      Gi1/0/15       3601                       485b.39d0.05a6
+1860.24f0.e8f9      Gi1/0/26       3601                       1860.24f0.e8f9
+f8b4.6ac2.8108      Gi1/0/47       3601                       f8b4.6ac2.8108
+10bf.48b9.d1a4      Gi1/0/33       3601                       10bf.48b9.d1a4
+
+Total number of devices: 38
+
+STACK-361-R1-1>sh lldp nei
+Capability codes:
+  (R) Router, (B) Bridge, (T) Telephone, (C) DOCSIS Cable Device
+  (W) WLAN Access Point, (P) Repeater, (S) Station, (O) Other
+Device ID            Local Intf      Hold-time  Capability  Port ID  
+SW4500X-VSS.glavapu. Te3/0/2        120        B,R             Te2/1/1
+SW4500X-VSS.glavapu. Te2/0/2        120        B,R             Te1/1/2
+SW4500X-VSS.glavapu. Te4/0/2        120        B,R             Te2/1/2
+SW4500X-VSS.glavapu. Te1/0/2        120        B,R             Te1/1/1
+c8d9.d232.809f      Gi3/0/39       3601                       c8d9.d232.809f
+f8b4.6ac2.80fa      Gi2/0/31       3601                       f8b4.6ac2.80fa
+0860.6eeb.83c6      Gi2/0/43       3601                       0860.6eeb.83c6
+3c52.8258.56da      Gi2/0/1        3601                       3c52.8258.56da
+c8d9.d232.83d7      Gi4/0/35       3601                       c8d9.d232.83d7
+3085.a993.9979      Gi2/0/20       3601                       3085.a993.9979
+b42e.9939.7f8e      Gi1/0/18       3601                       b42e.9939.7f8e
+10e7.c645.a48e      Gi1/0/20       3601                       10e7.c645.a48e
+3c52.8258.56ca      Gi3/0/31       3601                       3c52.8258.56ca
+3024.a995.66f7      Gi2/0/14       3601                       3024.a995.66f7
+c025.e90e.de03      Gi2/0/10       3601                       c025.e90e.de03
+9c7b.ef2c.412e      Gi3/0/3        3601                       9c7b.ef2c.412e
+3c52.825a.80c7      Gi3/0/26       3601                       3c52.825a.80c7
+6c0b.84a9.12c2      Gi4/0/23       3601                       6c0b.84a9.12c2
+c81f.66b4.3c3b      Gi3/0/29       3601                       c81f.66b4.3c3b
+e03f.497e.5efd      Gi1/0/23       3601                       e03f.497e.5efd
+9c7b.ef2c.3cfc      Gi1/0/23       3601                       9c7b.ef2c.3cfc
+88d7.f67c.6df5      Gi3/0/45       3601                       88d7.f67c.6df5
+708b.cdbf.53de      Gi2/0/2        3601                       708b.cdbf.53de
+10e7.c61b.8469      Gi1/0/8        3601                       10e7.c61b.8469
+10e7.c61b.8281      Gi1/0/16       3601                       10e7.c61b.8281
+1831.bf2f.6723      Gi3/0/1        3601                       1831.bf2f.6723
+b06e.bf60.87c8      Gi2/0/12       3601                       b06e.bf60.87c8
+a042.3f38.4540      Gi4/0/45       3601                       a042.3f38.4540
+1c6f.65d7.9226      Gi4/0/45       3601                       1c6f.65d7.9226
+0860.6e83.38a5      Gi2/0/17       3601                       0860.6e83.38a5
+6c0b.84a9.140a      Gi2/0/36       3601                       6c0b.84a9.140a
+382c.4a63.09ee      Gi4/0/14       3601                       382c.4a63.09ee
+10e7.c645.a717      Gi2/0/9        3601                       10e7.c645.a717
+10e7.c646.2f0c      Gi2/0/16       3601                       10e7.c646.2f0c
+0860.6ef1.72ea      Gi2/0/4        3601                       0860.6ef1.72ea
+f8b4.6ac2.8084      Gi2/0/23       3601                       f8b4.6ac2.8084
+c8d9.d236.133a      Gi1/0/25       3601                       c8d9.d236.133a
+3c52.8258.56d1      Gi2/0/42       3601                       3c52.8258.56d1
+10e7.c61b.83f7      Gi3/0/33       3601                       10e7.c61b.83f7
+6c0b.84a9.12b8      Gi4/0/4        3601                       6c0b.84a9.12b8
+1860.24ae.9336      Gi1/0/39       3601                       1860.24ae.9336
+c8d9.d22b.574a      Gi2/0/28       3601                       c8d9.d22b.574a
+f80d.ac29.c0e4      Gi1/0/35       3601                       f80d.ac29.c0e4
+6c0b.84a9.12f4      Gi3/0/24       3601                       6c0b.84a9.12f4
+10e7.c63b.6b0d      Gi4/0/11       3601                       10e7.c63b.6b0d
+6c0b.84a9.13db      Gi4/0/11       3601                       6c0b.84a9.13db
+708b.cdbe.a9de      Gi4/0/9        3601                       708b.cdbe.a9de
+3085.a93e.ccf0      Gi3/0/38       3601                       3085.a93e.ccf0
+b06e.bf60.8699      Gi1/0/6        3601                       b06e.bf60.8699
+1860.24ae.938e      Gi1/0/36       3601                       1860.24ae.938e
+c4e9.8402.a737      Gi1/0/3        3601                       c4e9.8402.a737
+e03f.497e.61e3      Gi4/0/45       3601                       e03f.497e.61e3
+1831.bf2f.6712      Gi4/0/45       3601                       1831.bf2f.6712
+c81f.66b5.ca6c      Gi3/0/21       3601                       c81f.66b5.ca6c
+10e7.c646.9850      Gi3/0/12       3601                       10e7.c646.9850
+f46d.04e4.6a64      Gi4/0/1        3601                       f46d.04e4.6a64
+b42e.99a0.8771      Gi2/0/3        3601                       b42e.99a0.8771
+10e7.c63b.6a93      Gi3/0/4        3601                       10e7.c63b.6a93
+c81f.66b5.cc4d      Gi4/0/5        3601                       c81f.66b5.cc4d
+c03f.d551.ff5b      Gi2/0/45       3601                       c03f.d551.ff5b
+88d7.f67c.6e45      Gi3/0/43       3601                       88d7.f67c.6e45
+88d7.f67c.6dc0      Gi4/0/48       3601                       88d7.f67c.6dc0
+10e7.c646.8b6f      Gi2/0/15       3601                       10e7.c646.8b6f
+9c7b.ef43.1177      Gi4/0/8        3601                       9c7b.ef43.1177
+3c52.825a.80ab      Gi2/0/32       3601                       3c52.825a.80ab
+9c7b.ef27.6c36      Gi1/0/18       3601                       9c7b.ef27.6c36
+c8d9.d236.1049      Gi3/0/41       3601                       c8d9.d236.1049
+10e7.c63b.6899      Gi1/0/2        3601                       10e7.c63b.6899
+9c7b.ef2c.4122      Gi3/0/29       3601                       9c7b.ef2c.4122
+3c52.8258.56e0      Gi1/0/12       3601                       3c52.8258.56e0
+c81f.66b5.cca9      Gi3/0/25       3601                       c81f.66b5.cca9
+3c52.825a.8103      Gi2/0/34       3601                       3c52.825a.8103
+10e7.c644.51d3      Gi3/0/5        3601                       10e7.c644.51d3
+6c0b.84a9.11e9      Gi3/0/7        3601                       6c0b.84a9.11e9
+60a4.4c3f.7213      Gi2/0/21       3601                       60a4.4c3f.7213
+f46d.0417.0d5f      Gi4/0/47       3601                       f46d.0417.0d5f
+10e7.c61b.842a      Gi1/0/43       3601                       10e7.c61b.842a
+3c52.825a.8112      Gi3/0/8        3601                       3c52.825a.8112
+10e7.c646.2eaa      Gi3/0/14       3601                       10e7.c646.2eaa
+b42e.99a0.88d5      Gi4/0/13       3601                      b42e.99a0.88d5
+6c0b.84a9.13c8      Gi4/0/2        3601                       6c0b.84a9.13c8
+10e7.c644.51eb      Gi2/0/38       3601                       10e7.c644.51eb
+10e7.c645.b293      Gi4/0/29       3601                       10e7.c645.b293
+b42e.993f.9c27      Gi1/0/28       3601                       b42e.993f.9c27
+0860.6eeb.841d      Gi2/0/47       3601                       0860.6eeb.841d
+b42e.9939.7bab      Gi3/0/34       3601                       b42e.9939.7bab
+10e7.c63b.689d      Gi4/0/12       3601                       10e7.c63b.689d
+c025.e91b.6168      Gi1/0/22       3601                       c025.e91b.6168
+0860.6eeb.8433      Gi4/0/45       3601                       0860.6eeb.8433
+5405.dbfd.5c10      Gi1/0/48       3601                       5405.dbfd.5c10
+5405.dbfd.5ac2      Gi2/0/6        3601                       5405.dbfd.5ac2
+704d.7bb7.7cb0      Gi3/0/42       3601                       704d.7bb7.7cb0
+6c0b.84a9.12c0      Gi1/0/26       3601                       6c0b.84a9.12c0
+f8b4.6ab0.ec50      Gi2/0/8        3601         -             f8b4.6ab0.ec50
+
+Total number of devices: 94
+
+STACK-361-R1-2>sh lldp nei
+Capability codes:
+  (R) Router, (B) Bridge, (T) Telephone, (C) DOCSIS Cable Device
+  (W) WLAN Access Point, (P) Repeater, (S) Station, (O) Other
+Device ID            Local Intf      Hold-time  Capability  Port ID  
+SW4500X-VSS.glavapu. Te1/0/2        120        B,R             Te1/1/3
+SW4500X-VSS.glavapu. Te5/0/2        120        B,R             Te2/1/3
+SW4500X-VSS.glavapu. Te4/0/2        120        B,R             Te2/1/4
+SW4500X-VSS.glavapu. Te2/0/2        120        B,R             Te1/1/4
+SW4500X-VSS.glavapu. Te3/0/2        120        B,R             Te1/1/5
+1860.24f0.cad2      Gi3/0/43       3601         -             1860.24f0.cad2
+9c7b.ef27.77c1      Gi1/0/23       3601         -             9c7b.ef27.77c1
+f8b4.6ac2.8103      Gi3/0/46       3601         -             f8b4.6ac2.8103
+3c52.8258.56b1      Gi5/0/14       3601         -             3c52.8258.56b1
+b05c.da3e.53e6      Gi3/0/15       3601         -             b05c.da3e.53e6
+3085.a93e.cd57      Gi1/0/37       3601         -             3085.a93e.cd57
+9c7b.ef2c.3d03      Gi1/0/1        3601         -             9c7b.ef2c.3d03
+1860.24f0.cb95      Gi2/0/39       3601         -             1860.24f0.cb95
+0002.4430.e88f      Gi4/0/27       3601         -             0002.4430.e88f
+1860.24ef.ce45      Gi2/0/38       3601         -             1860.24ef.ce45
+20cf.3026.dfa3      Gi2/0/38       3601         -             20cf.3026.dfa3
+3085.a99c.ac01      Gi5/0/24       3601         -             3085.a99c.ac01
+1860.24ef.cce7      Gi2/0/33       3601         -             1860.24ef.cce7
+c81f.66b5.cc96      Gi1/0/6        3601         -             c81f.66b5.cc96
+10c3.7b94.3ec1      Gi3/0/2        3601         -             10c3.7b94.3ec1
+3c52.825a.8118      Gi1/0/19       3601         -             3c52.825a.8118
+1860.24f0.c392      Gi2/0/24       3601         -             1860.24f0.c392
+b42e.99a0.8d29      Gi1/0/15       3601         -             b42e.99a0.8d29
+c81f.66b5.cc09      Gi5/0/48       3601         -             c81f.66b5.cc09
+bcae.c575.a5aa      Gi5/0/10       3601         -             bcae.c575.a5aa
+6c0b.8465.fc6c      Gi1/0/7        3601         -             6c0b.8465.fc6c
+3085.a93e.ccd6      Gi3/0/4        3601         -             3085.a93e.ccd6
+5cf9.dddc.7a33      Gi4/0/31       3601         -             5cf9.dddc.7a33
+10e7.c645.b2e5      Gi5/0/28       3601         -             10e7.c645.b2e5
+1860.24f0.cbc5      Gi4/0/19       3601         -             1860.24f0.cbc5
+f8b4.6ac2.7c8a      Gi1/0/40       3601         -             f8b4.6ac2.7c8a
+9c7b.ef2c.4147      Gi1/0/13       3601         -             9c7b.ef2c.4147
+1860.24f0.e83f      Gi2/0/12       3601         -             1860.24f0.e83f
+1860.24f0.cbb9      Gi2/0/44       3601         -             1860.24f0.cbb9
+c81f.66b5.cbb5      Gi1/0/41       3601         -             c81f.66b5.cbb5
+e04f.4322.8821      Gi2/0/7        3601         -             e04f.4322.8821
+1860.24f0.cb21      Gi3/0/14       3601         -             1860.24f0.cb21
+1860.24f0.c520      Gi3/0/7        3601         -             1860.24f0.c520
+54a0.50de.fb77      Gi1/0/11       3601         -             54a0.50de.fb77
+e04f.4322.83d2      Gi2/0/31       3601         -             e04f.4322.83d2
+b05c.da3e.52be      Gi3/0/10       3601         -             b05c.da3e.52be
+f8b4.6ac2.854b      Gi2/0/4        3601         -             f8b4.6ac2.854b
+1860.24e1.a05b      Gi2/0/12       3601         -             1860.24e1.a05b
+1860.24f0.e78d      Gi3/0/29       3601         -             1860.24f0.e78d
+b42e.99a0.7772      Gi1/0/17       3601         -             b42e.99a0.7772
+f48e.3880.9b8a      Gi1/0/39       3601         -             f48e.3880.9b8a
+e04f.4322.78d3      Gi2/0/17       3601         -             e04f.4322.78d3
+c8d9.d286.c7d0      Gi3/0/23       3601         -             c8d9.d286.c7d0
+e04f.4322.8475      Gi2/0/19       3601         -             e04f.4322.8475
+c8d9.d286.22b0      Gi2/0/5        3601         -             c8d9.d286.22b0
+1860.24f0.ca59      Gi2/0/35       3601         -             1860.24f0.ca59
+b05c.da3e.52e9      Gi3/0/1        3601         -             b05c.da3e.52e9
+d850.e63f.8e10      Gi1/0/35       3601         -             d850.e63f.8e10
+5cf9.dddc.6d47      Gi2/0/28       3601         -             5cf9.dddc.6d47
+f46d.0471.afac      Gi3/0/45       3601         -             f46d.0471.afac
+1860.24f0.3f1a      Gi2/0/39       3601         -             1860.24f0.3f1a
+1860.24f0.c94c      Gi2/0/10       3601         -             1860.24f0.c94c
+5404.a6a4.4dfe      Gi3/0/8        3601         -             5404.a6a4.4dfe
+1860.24dd.7317      Gi4/0/24       3601         -             1860.24dd.7317
+c8d9.d227.b17b      Gi5/0/30       3601         -             c8d9.d227.b17b
+1860.24f0.baf5      Gi2/0/41       3601         -             1860.24f0.baf5
+f8b4.6ac2.8105      Gi2/0/10       3601         -             f8b4.6ac2.8105
+5404.a6ef.c69e      Gi4/0/16       3601         -             5404.a6ef.c69e
+e8d8.d1c2.7ae8      Gi2/0/26       3601         -             e8d8.d1c2.7ae8
+c81f.66b5.cbcb      Gi1/0/45       3601         -             c81f.66b5.cbcb
+88d7.f67c.6cd9      Gi4/0/28       3601         -             88d7.f67c.6cd9
+c81f.66b5.d9c6      Gi1/0/12       3601         -             c81f.66b5.d9c6
+88d7.f67c.6d6c      Gi1/0/3        3601         -             88d7.f67c.6d6c
+c8d9.d227.b1e9      Gi1/0/13       3601         -             c8d9.d227.b1e9
+40b0.34fe.36c1      Gi3/0/9        3601         -             40b0.34fe.36c1
+f8b4.6ac2.8104      Gi1/0/33       3601         -            f8b4.6ac2.8104
+1860.24f0.caf1      Gi2/0/34       3601         -             1860.24f0.caf1
+f8b4.6ac2.7cc4      Gi1/0/36       3601         -             f8b4.6ac2.7cc4
+
+Total number of devices: 73
+
+STACK-474-R2-1>sh lldp nei
+Capability codes:
+  (R) Router, (B) Bridge, (T) Telephone, (C) DOCSIS Cable Device
+  (W) WLAN Access Point, (P) Repeater, (S) Station, (O) Other
+Device ID            Local Intf      Hold-time  Capability  Port ID  
+SW4500X-VSS.glavapu. Te4/0/2        120        B,R             Te2/1/5
+SW4500X-VSS.glavapu. Te1/0/2        120        B,R             Te1/1/6
+SW4500X-VSS.glavapu. Te2/0/2        120        B,R             Te1/1/7
+SW4500X-VSS.glavapu. Te6/0/2        120        B,R             Te2/1/7
+SW4500X-VSS.glavapu. Te5/0/2        120        B,R             Te2/1/6
+SW4500X-VSS.glavapu. Te7/0/2        120        B,R             Te2/1/8
+SW4500X-VSS.glavapu. Te3/0/2        120        B,R             Te1/1/8
+10e7.c645.a849      Gi5/0/43       3601        -              10e7.c645.a849
+88d7.f67c.6cd8      Gi1/0/34       3601        -              88d7.f67c.6cd8
+1860.24b2.28b9      Gi3/0/13       3601        -              1860.24b2.28b9
+3c52.825a.8088      Gi3/0/13       3601        -              3c52.825a.8088
+1860.24b2.288b      Gi1/0/24       3601        -              1860.24b2.288b
+88d7.f67c.6e4f      Gi2/0/14       3601        -              88d7.f67c.6e4f
+10e7.c63b.6883      Gi3/0/35       3601        -              10e7.c63b.6883
+c8d9.d227.abd7      Gi4/0/38       3601        -              c8d9.d227.abd7
+88d7.f67c.6d57      Gi5/0/45       3601        -              88d7.f67c.6d57
+88d7.f67c.6eaa      Gi2/0/31       3601        -              88d7.f67c.6eaa
+6c0b.84a9.1472      Gi4/0/32       3601        -              6c0b.84a9.1472
+6c0b.84a9.11eb      Gi1/0/43       3601        -              6c0b.84a9.11eb
+18d6.c704.e99a      Gi7/0/26       3601        -              18d6.c704.e99a
+3085.a99d.5819      Gi1/0/47       3601        -              3085.a99d.5819
+6c0b.84a9.11d9      Gi1/0/42       3601        -              6c0b.84a9.11d9
+b05c.da3e.51dd      Gi6/0/37       3601        -              b05c.da3e.51dd
+c8d9.d22a.68e1      Gi2/0/16       3601        -              c8d9.d22a.68e1
+3c52.8258.56ba      Gi6/0/12       3601        -              3c52.8258.56ba
+10e7.c63b.6891      Gi5/0/30       3601        -              10e7.c63b.6891
+b42e.99a0.7860      Gi2/0/25       3601        -              b42e.99a0.7860
+6c0b.84a9.09cc      Gi6/0/19       3601        -              6c0b.84a9.09cc
+6c0b.84a9.140d      Gi7/0/16       3601        -              6c0b.84a9.140d
+c8d9.d227.b240      Gi3/0/47       3601        -              c8d9.d227.b240
+d850.e63f.8e7f      Gi2/0/29       3601        -              d850.e63f.8e7f
+3c52.825a.80d9      Gi7/0/15       3601        -              3c52.825a.80d9
+c860.0060.1b12      Gi4/0/45       3601        -              c860.0060.1b12
+3085.a9a1.05bf      Gi5/0/44       3601        -              3085.a9a1.05bf
+10e7.c645.b29b      Gi6/0/7        3601        -              10e7.c645.b29b
+d850.e63f.9036      Gi2/0/33       3601        -              d850.e63f.9036
+3c52.825a.8111      Gi6/0/5        3601        -              3c52.825a.8111
+6c0b.84a9.1243      Gi3/0/2        3601        -              6c0b.84a9.1243
+9c7b.ef27.740b      Gi3/0/2        3601        -              9c7b.ef27.740b
+10e7.c63b.76a5      Gi7/0/23       3601        -              10e7.c63b.76a5
+d850.e63f.8f3d      Gi6/0/41       3601        -              d850.e63f.8f3d
+3c52.825a.80ca      Gi7/0/14       3601        -              3c52.825a.80ca
+10e7.c646.8b6d      Gi2/0/40       3601        -              10e7.c646.8b6d
+10e7.c646.9f29      Gi6/0/44       3601        -              10e7.c646.9f29
+88d7.f67a.e4b0      Gi1/0/20       3601        -              88d7.f67a.e4b0
+1860.24ae.9531      Gi5/0/47       3601        -              1860.24ae.9531
+3c52.825a.80c9      Gi5/0/3        3601        -              3c52.825a.80c9
+1831.bf2f.672e      Gi6/0/28       3601        -              1831.bf2f.672e
+10e7.c63b.6ed5      Gi7/0/22       3601        -              10e7.c63b.6ed5
+6c0b.84a9.1365      Gi2/0/4        3601        -              6c0b.84a9.1365
+c8d9.d22a.6987      Gi3/0/12       3601        -              c8d9.d22a.6987
+3c52.825a.8101      Gi4/0/21       3601        -              3c52.825a.8101
+bcae.c54c.3309      Gi2/0/18       3601        -              bcae.c54c.3309
+3c52.825a.80fe      Gi7/0/25       3601        -              3c52.825a.80fe
+ac22.0bcb.117a      Gi5/0/15       3601        -              ac22.0bcb.117a
+88d7.f67c.6d82      Gi1/0/38       3601        -              88d7.f67c.6d82
+3085.a99c.aa2d      Gi5/0/1        3601        -              3085.a99c.aa2d
+3c52.825a.80db      Gi4/0/36       3601        -              3c52.825a.80db
+1860.24ae.94dd      Gi4/0/1        3601        -              1860.24ae.94dd
+e03f.497e.6193      Gi7/0/10       3601        -              e03f.497e.6193
+4016.7e75.f1ae      Gi2/0/30       3601        -              4016.7e75.f1ae
+88d7.f6e0.1297      Gi3/0/41       3601        -              88d7.f6e0.1297
+10e7.c646.9f1b      Gi3/0/41       3601        -              10e7.c646.9f1b
+60a4.4c50.d4cf      Gi2/0/36       3601        -              60a4.4c50.d4cf
+3c52.8258.56e2      Gi2/0/44       3601        -              3c52.8258.56e2
+9c7b.ef43.120a      Gi4/0/24       3601        -              9c7b.ef43.120a
+10e7.c646.9f3b      Gi4/0/12       3601        -              10e7.c646.9f3b
+10e7.c646.2eba      Gi3/0/31       3601        -              10e7.c646.2eba
+3c52.825a.8059      Gi5/0/28       3601        -              3c52.825a.8059
+3c52.8258.56bb      Gi6/0/20       3601        -              3c52.8258.56bb
+10e7.c646.2eda      Gi7/0/21       3601        -              10e7.c646.2eda
+6c0b.84a9.12b0      Gi4/0/43       3601        -              6c0b.84a9.12b0
+1860.24b2.2861      Gi3/0/23       3601        -              1860.24b2.2861
+88d7.f67c.6e5d      Gi6/0/2        3601        -              88d7.f67c.6e5d
+6c0b.84a9.12ba      Gi2/0/24       3601        -              6c0b.84a9.12ba
+9c7b.ef27.77a6      Gi7/0/41       3601        -              9c7b.ef27.77a6
+c860.005a.28b4      Gi5/0/11       3601        -              c860.005a.28b4
+18d6.c704.b3a2      Gi7/0/43       3601        -              18d6.c704.b3a2
+c8d9.d236.1091      Gi5/0/13       3601        -              c8d9.d236.1091
+88d7.f67c.6e6b      Gi7/0/18       3601        -              88d7.f67c.6e6b
+c8d9.d204.ec5f      Gi7/0/28       3601        -              c8d9.d204.ec5f
+3c52.8258.56b8      Gi5/0/32       3601        -              3c52.8258.56b8
+3c52.8258.56ea      Gi6/0/4        3601        -              3c52.8258.56ea
+88d7.f67c.6e5f      Gi3/0/10       3601        -              88d7.f67c.6e5f
+88d7.f67c.6e62      Gi2/0/19       3601        -              88d7.f67c.6e62
+10e7.c63b.70af      Gi4/0/8        3601        -              10e7.c63b.70af
+54a0.50de.fb74      Gi1/0/29       3601        -              54a0.50de.fb74
+0860.6eeb.81ff      Gi4/0/48       3601        -              0860.6eeb.81ff
+1860.24f0.e837      Gi1/0/31       3601        -              1860.24f0.e837
+1860.24ae.933d      Gi7/0/33       3601        -              1860.24ae.933d
+3c52.825a.8114      Gi7/0/35       3601        -              3c52.825a.8114
+6c0b.84a9.0e1c      Gi3/0/24       3601        -              6c0b.84a9.0e1c
+d89e.f395.07b4      Gi6/0/42       3601        -              d89e.f395.07b4
+bcee.7bd9.f47f      Gi3/0/28       3601        -              bcee.7bd9.f47f
+6c0b.84a9.13e8      Gi2/0/5        3601        -              6c0b.84a9.13e8
+1860.24ae.93b8      Gi1/0/12       3601        -              1860.24ae.93b8
+3c52.825a.80fb      Gi4/0/35       3601        -              3c52.825a.80fb
+3c52.8258.5668      Gi7/0/7        3601        -              3c52.8258.5668
+c8d9.d22b.578a      Gi7/0/15       3601        -              c8d9.d22b.578a
+6c0b.84a9.13e0      Gi7/0/46       3601        -              6c0b.84a9.13e0
+3c52.825a.80f0      Gi5/0/40       3601        -              3c52.825a.80f0
+1860.24f0.e798      Gi4/0/7        3601        -              1860.24f0.e798
+b42e.99a0.8ff2      Gi1/0/37       3601        -              b42e.99a0.8ff2
+c8d9.d236.1f4e      Gi2/0/14       3601        -              c8d9.d236.1f4e
+6c0b.84a9.13e9      Gi2/0/17       3601        -              6c0b.84a9.13e9
+6c0b.84a9.13d8      Gi4/0/29       3601        -              6c0b.84a9.13d8
+3c52.825a.810a      Gi2/0/8        3601        -              3c52.825a.810a
+3c52.825a.8119      Gi1/0/41       3601        -              3c52.825a.8119
+10bf.48b9.df81      Gi5/0/2        3601        -              10bf.48b9.df81
+88d7.f67c.6c65      Gi3/0/8        3601        -              88d7.f67c.6c65
+9c7b.ef2c.3cd5      Gi4/0/20       3601        -              9c7b.ef2c.3cd5
+10e7.c61b.83b5      Gi1/0/28       3601        -              10e7.c61b.83b5
+3c52.825a.80f4      Gi7/0/31       3601        -              3c52.825a.80f4
+c8d9.d223.ff88      Gi2/0/9        3601        -              c8d9.d223.ff88
+b42e.9939.7f9e      Gi6/0/3        3601        -              b42e.9939.7f9e
+9c7b.ef27.789d      Gi4/0/22       3601        -              9c7b.ef27.789d
+10e7.c644.51b9      Gi1/0/22       3601        -              10e7.c644.51b9
+b42e.99a0.8d3c      Gi1/0/33       3601        -              b42e.99a0.8d3c
+ac22.0bc7.4b5e      Gi4/0/33       3601        -              ac22.0bc7.4b5e
+3c52.8258.56d5      Gi7/0/7        3601        -              3c52.8258.56d5
+10e7.c645.b2c7      Gi6/0/14       3601        -              10e7.c645.b2c7
+9c7b.ef27.7891      Gi4/0/28       3601        -              9c7b.ef27.7891
+3c52.825a.80d8      Gi6/0/8        3601        -              3c52.825a.80d8
+f80d.ac29.c0f4      Gi6/0/23       3601        -              f80d.ac29.c0f4
+3c52.825a.805e      Gi6/0/6        3601        -              3c52.825a.805e
+3c52.825a.8096      Gi1/0/8        3601        -              3c52.825a.8096
+c8d9.d22b.573e      Gi3/0/4        3601        -              c8d9.d22b.573e
+88d7.f67c.6e7f      Gi2/0/7        3601        -              88d7.f67c.6e7f
+f46d.0471.ac25      Gi5/0/10       3601        -              f46d.0471.ac25
+10e7.c646.921f      Gi7/0/23       3601        -              10e7.c646.921f
+88d7.f67c.6da1      Gi1/0/36       3601        -              88d7.f67c.6da1
+b42e.9939.7bb7      Gi7/0/12       3601        -              b42e.9939.7bb7
+88d7.f67c.6e3c      Gi2/0/7        3601        -              88d7.f67c.6e3c
+88d7.f67c.6d75      Gi1/0/40       3601        -              88d7.f67c.6d75
+c025.e91b.63d8      Gi7/0/32       3601        -              c025.e91b.63d8
+c8d9.d227.afdb      Gi1/0/44       3601        -              c8d9.d227.afdb
+3c52.825f.9f37      Gi6/0/3        3601        -              3c52.825f.9f37
+3c52.825a.8116      Gi5/0/21       3601        -              3c52.825a.8116
+6c0b.84a9.13e4      Gi5/0/23       3601        -              6c0b.84a9.13e4
+10bf.48b9.c9f4      Gi6/0/18       3601        -              10bf.48b9.c9f4
+10bf.48ba.bc52      Gi5/0/46       3601        -              10bf.48ba.bc52
+10e7.c646.8d31      Gi5/0/42       3601        -              10e7.c646.8d31
+3c52.825a.8113      Gi5/0/9        3601        -             3c52.825a.8113
+
+Total number of devices: 143
+
+STACK-474-R2-2>sh lldp nei
+Capability codes:
+  (R) Router, (B) Bridge, (T) Telephone, (C) DOCSIS Cable Device
+  (W) WLAN Access Point, (P) Repeater, (S) Station, (O) Other
+Device ID            Local Intf      Hold-time  Capability  Port ID  
+SW4500X-VSS.glavapu. Te3/0/2        120        B,R             Te2/1/9
+SW4500X-VSS.glavapu. Te1/0/2        120        B,R             Te1/1/9
+SW4500X-VSS.glavapu. Te4/0/2        120        B,R             Te2/1/10
+SW4500X-VSS.glavapu. Te2/0/2        120        B,R             Te1/1/10
+MikroTik            Gi3/0/23       120        B,W,R           ether1
+88d7.f67c.6d9e      Gi2/0/2        3601         -             88d7.f67c.6d9e
+5046.5d57.ca11      Gi1/0/12       3601         -             5046.5d57.ca11
+c8d9.d232.83c5      Gi1/0/33       3601         -             c8d9.d232.83c5
+6c0b.84a9.13e3      Gi3/0/36       3601         -             6c0b.84a9.13e3
+3c52.8258.56b7      Gi2/0/44       3601         -             3c52.8258.56b7
+d850.e63f.8e01      Gi1/0/39       3601         -             d850.e63f.8e01
+c8d9.d227.b1e7      Gi1/0/41       3601         -             c8d9.d227.b1e7
+c8d9.d232.8376      Gi1/0/17       3601         -             c8d9.d232.8376
+1860.24ae.9528      Gi4/0/3        3601         -             1860.24ae.9528
+d850.e63f.8f5f      Gi1/0/10       3601         -             d850.e63f.8f5f
+c8d9.d232.7f8b      Gi3/0/27       3601         -             c8d9.d232.7f8b
+c8d9.d236.1466      Gi3/0/44       3601         -            c8d9.d236.1466
+1860.24f0.e9c9      Gi3/0/46       3601         -              1860.24f0.e9c9
+2a11.a106.13ba      Gi3/0/6        3601         -             2a11.a106.13ba
+4016.7e77.0144      Gi1/0/11       3601         -             4016.7e77.0144
+10e7.c646.2f0e      Gi2/0/4        3601         -             10e7.c646.2f0e
+c8d9.d236.1309      Gi3/0/47       3601         -             c8d9.d236.1309
+c8d9.d236.107e      Gi3/0/4        3601         -             c8d9.d236.107e
+6c0b.84a9.11b2      Gi1/0/21       3601         -             6c0b.84a9.11b2
+6c0b.84a9.1373      Gi1/0/23       3601         -             6c0b.84a9.1373
+9c7b.ef2c.4128      Gi1/0/15       3601         -            9c7b.ef2c.4128
+4016.7e75.f1c2      Gi1/0/9        3601         -              4016.7e75.f1c2
+9c7b.ef2c.3ca8      Gi2/0/1        3601         -             9c7b.ef2c.3ca8
+7824.af89.b2c5      Gi1/0/48       3601          -             7824.af89.b2c5
+c8d9.d236.109e      Gi3/0/20       3601         -            c8d9.d236.109e
+d850.e63f.901e      Gi1/0/8        3601         -             d850.e63f.901e
+c8d9.d223.ff82      Gi1/0/27       3601         -             c8d9.d223.ff82
+88d7.f67c.6cee      Gi2/0/39       3601         -             88d7.f67c.6cee
+9c7b.ef2c.4124      Gi4/0/46       3601         -             9c7b.ef2c.4124
+f46d.0417.150a      Gi4/0/18       3601         -             f46d.0417.150a
+3c52.825a.80f9      Gi2/0/40       3601         -             3c52.825a.80f9
+c8d9.d232.803b      Gi1/0/47       3601         -             c8d9.d232.803b
+10bf.487d.e659      Gi4/0/45       3601         -             10bf.487d.e659
+c8d9.d28f.4e37      Gi4/0/15       3601         -             c8d9.d28f.4e37
+6c0b.84a9.09ca      Gi2/0/9        3601         -            6c0b.84a9.09ca
+9c7b.ef27.789c      Gi1/0/20       3601         -              9c7b.ef27.789c
+704d.7bb7.7cbe      Gi4/0/12       3601         -             704d.7bb7.7cbe
+9c7b.ef2c.3cd8      Gi4/0/48       3601         -             9c7b.ef2c.3cd8
+704d.7bb7.7c29      Gi4/0/32       3601         -             704d.7bb7.7c29
+88d7.f67c.6c3b      Gi2/0/25       3601         -             88d7.f67c.6c3b
+5404.a681.6b7b      Gi4/0/43       3601         -             5404.a681.6b7b
+1860.24f0.cb1e      Gi2/0/19       3601         -             1860.24f0.cb1e
+1860.24e0.31fd      Gi2/0/10       3601         -             1860.24e0.31fd
+f80d.ac29.c0cb      Gi2/0/30       3601         -             f80d.ac29.c0cb
+18d6.c703.b178      Gi1/0/35       3601         -             18d6.c703.b178
+704d.7bb7.7ce2      Gi4/0/4        3601         -             704d.7bb7.7ce2
+b42e.99a0.7858      Gi1/0/28       3601         -             b42e.99a0.7858
+3c52.8258.56e6      Gi2/0/35       3601         -             3c52.8258.56e6
+ac22.0bc7.4cce      Gi2/0/11       3601         -             ac22.0bc7.4cce
+3c52.825a.80d7      Gi2/0/31       3601         -             3c52.825a.80d7
+80e8.2cd8.00dc      Gi1/0/22       3601         -             80e8.2cd8.00dc
+c8d9.d236.11d3      Gi3/0/35       3601         -             c8d9.d236.11d3
+b42e.99a0.7777      Gi1/0/31       3601         -             b42e.99a0.7777
+c8d9.d236.1486      Gi3/0/28       3601         -             c8d9.d236.1486
+c8d9.d227.b224      Gi1/0/14       3601          -             c8d9.d227.b224
+3085.a993.997c      Gi1/0/43       3601          -            3085.a993.997c
+c8d9.d236.1e90      Gi1/0/44       3601         -             c8d9.d236.1e90
+c8d9.d236.0f1f      Gi3/0/24       3601         -             c8d9.d236.0f1f
+704d.7bb7.7b87      Gi4/0/41       3601         -             704d.7bb7.7b87
+c860.00cc.a013      Gi3/0/12       3601         -             c860.00cc.a013
+d850.e63f.8e0d      Gi1/0/5        3601         -             d850.e63f.8e0d
+
+Total number of devices: 66
+
+STACK-474-R3-1>sh lldp nei
+Capability codes:
+  (R) Router, (B) Bridge, (T) Telephone, (C) DOCSIS Cable Device
+  (W) WLAN Access Point, (P) Repeater, (S) Station, (O) Other
+Device ID            Local Intf      Hold-time  Capability  Port ID  
+SW4500X-VSS.glavapu. Te2/0/2        120        B,R             Te2/1/11
+SW4500X-VSS.glavapu. Te1/0/2        120        B,R             Te1/1/11
+88d7.f67c.6e9f      Gi1/0/47       3601                      88d7.f67c.6e9f
+88d7.f67c.6e9c      Gi1/0/47       3601                      88d7.f67c.6e9c
+88d7.f67c.6c92      Gi1/0/6        3601                      88d7.f67c.6c92
+88d7.f67c.6c32      Gi1/0/6        3601                      88d7.f67c.6c32
+88d7.f67c.6e7b      Gi1/0/6        3601                      88d7.f67c.6e7b
+6c0b.84a9.11ee      Gi1/0/6        3601                      6c0b.84a9.11ee
+10c3.7b94.3e51      Gi1/0/18       3601                      10c3.7b94.3e51
+c8d9.d232.83cb      Gi1/0/21       3601                      c8d9.d232.83cb
+6c0b.84a9.13b7      Gi1/0/15       3601                      6c0b.84a9.13b7
+6c0b.84a9.1426      Gi1/0/6        3601                      6c0b.84a9.1426
+6c0b.84a9.13b5      Gi1/0/13       3601                      6c0b.84a9.13b5
+6c0b.84a9.12ad      Gi1/0/41       3601                      6c0b.84a9.12ad
+88d7.f67c.6e4a      Gi1/0/6        3601                      88d7.f67c.6e4a
+88d7.f67c.6e73      Gi1/0/17       3601                      88d7.f67c.6e73
+ac22.0bdb.f094      Gi1/0/43       3601                      ac22.0bdb.f094
+9c7b.ef2c.4157      Gi1/0/3        3601                      9c7b.ef2c.4157
+
+Total number of devices: 18
+
+N3172-361-R2-2# sh lldp nei
+Capability codes:
+  (R) Router, (B) Bridge, (T) Telephone, (C) DOCSIS Cable Device
+  (W) WLAN Access Point, (P) Repeater, (S) Station, (O) Other
+Device ID            Local Intf      Hold-time  Capability  Port ID  
+MGMT-361-R2-1        mgmt0           120        B           gi18          
+0433.8952.cb3c       Eth1/1          120                    0433.8952.cb3c
+0433.8952.c959       Eth1/2          120                    0433.8952.c959
+70fd.457e.3f39       Eth1/3          121                    70fd.457e.3f39
+SW4500X-VSS.glavapu.local Eth1/47         120        BR          Te1/2/5       
+SW4500X-VSS.glavapu.local Eth1/48         120        BR          Te2/2/5       
+LE-361-1-LIG-CEE     Eth1/49         60                     ethernet0/0/2 
+LE-361-1-LIG-CEE     Eth1/50         60                     ethernet1/0/2 
+N3172-361-R2-1       Eth1/53         120        BR          Ethernet1/53  
+N3172-361-R2-1       Eth1/54         120        BR          Ethernet1/54  
+
+Total entries displayed: 10
+
+N3172-474-R3-1# sh lldp nei
+Capability codes:
+  (R) Router, (B) Bridge, (T) Telephone, (C) DOCSIS Cable Device
+  (W) WLAN Access Point, (P) Repeater, (S) Station, (O) Other
+Device ID            Local Intf      Hold-time  Capability  Port ID  
+SwitchBCBA03         mgmt0           120        B           gi22          
+0433.8952.c944       Eth1/1          120                    0433.8952.c944
+0433.8952.cc38       Eth1/2          120                    0433.8952.cc38
+SW4500X-VSS.glavapu.local Eth1/47         120        BR          Te1/1/15      
+SW4500X-VSS.glavapu.local Eth1/48         120        BR          Te2/1/15      
+LE-474-1-LIG-CEE     Eth1/49         60                     ethernet0/0/1 
+LE-474-1-LIG-CEE     Eth1/50         60                     ethernet1/0/1 
+N3172-474-R3-2       Eth1/53         120        BR          Ethernet1/53  
+N3172-474-R3-2       Eth1/54         120        BR          Ethernet1/54  
+
+Total entries displayed: 9
+
+N3172-474-R3-2# sh lldp nei
+Capability codes:
+  (R) Router, (B) Bridge, (T) Telephone, (C) DOCSIS Cable Device
+  (W) WLAN Access Point, (P) Repeater, (S) Station, (O) Other
+Device ID            Local Intf      Hold-time  Capability  Port ID  
+SwitchBCBA03         mgmt0           120        B           gi46          
+0433.8952.c944       Eth1/1          120                    0433.8952.c944
+0433.8952.cc38       Eth1/2          120                    0433.8952.cc38
+SW4500X-VSS.glavapu.local Eth1/47         120        BR          Te1/2/6       
+SW4500X-VSS.glavapu.local Eth1/48         120        BR          Te2/2/6       
+LE-474-1-LIG-CEE     Eth1/49         60                     ethernet0/0/2 
+LE-474-1-LIG-CEE     Eth1/50         60                     ethernet1/0/2 
+N3172-474-R3-1       Eth1/53         120        BR          Ethernet1/53  
+N3172-474-R3-1       Eth1/54         120        BR          Ethernet1/54  
+
+Total entries displayed: 9
+--
